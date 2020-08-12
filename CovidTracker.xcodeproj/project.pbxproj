@@ -3,27 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB3908724E1737D0078CF14 /* sqliteSupportingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3908624E1737D0078CF14 /* sqliteSupportingClass.swift */; };
+		0CB3908924E173B80078CF14 /* DB_tables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3908824E173B80078CF14 /* DB_tables.swift */; };
+		0CB3908B24E174380078CF14 /* sqlite_DB_Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3908A24E174380078CF14 /* sqlite_DB_Queries.swift */; };
+		0CB3909924E175AB0078CF14 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3908D24E175AB0078CF14 /* FMDatabase.m */; };
+		0CB3909A24E175AB0078CF14 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3908F24E175AB0078CF14 /* FMResultSet.m */; };
+		0CB3909B24E175AB0078CF14 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3909124E175AB0078CF14 /* FMDatabasePool.m */; };
+		0CB3909C24E175AB0078CF14 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3909324E175AB0078CF14 /* FMDatabaseAdditions.m */; };
+		0CB3909D24E175AB0078CF14 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3909624E175AB0078CF14 /* FMDatabaseQueue.m */; };
+		5DE5AF64CE65A9F38E377119 /* Pods_CovidTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A0D0E52B0650E209F79BDF /* Pods_CovidTracker.framework */; };
+		951027E724E1D37A00057666 /* StateDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951027E624E1D37A00057666 /* StateDetailsScreen.swift */; };
+		951027E924E1E51A00057666 /* font_image.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951027E824E1E51A00057666 /* font_image.ttf */; };
+		9514583324DF2F5E005AE3D6 /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514583224DF2F5E005AE3D6 /* DashBoard.swift */; };
+		957CDF0A24E00F3300A0A98F /* StateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957CDF0924E00F3300A0A98F /* StateList.swift */; };
 		95C28F4724DE71F90097A69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C28F4624DE71F90097A69C /* AppDelegate.swift */; };
 		95C28F4924DE71F90097A69C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C28F4824DE71F90097A69C /* SceneDelegate.swift */; };
-		95C28F4B24DE71F90097A69C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C28F4A24DE71F90097A69C /* ViewController.swift */; };
 		95C28F4E24DE71F90097A69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C28F4C24DE71F90097A69C /* Main.storyboard */; };
 		95C28F5024DE72000097A69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C28F4F24DE72000097A69C /* Assets.xcassets */; };
 		95C28F5324DE72000097A69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C28F5124DE72000097A69C /* LaunchScreen.storyboard */; };
+		95C28F5C24DE7A4E0097A69C /* loaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C28F5B24DE7A4E0097A69C /* loaderView.swift */; };
+		95C28F5E24DE7A680097A69C /* reachAbilitystatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C28F5D24DE7A680097A69C /* reachAbilitystatus.swift */; };
+		95C28F6024DE7A8B0097A69C /* networkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C28F5F24DE7A8B0097A69C /* networkReachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CB3908624E1737D0078CF14 /* sqliteSupportingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqliteSupportingClass.swift; sourceTree = "<group>"; };
+		0CB3908824E173B80078CF14 /* DB_tables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_tables.swift; sourceTree = "<group>"; };
+		0CB3908A24E174380078CF14 /* sqlite_DB_Queries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqlite_DB_Queries.swift; sourceTree = "<group>"; };
+		0CB3908D24E175AB0078CF14 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = SOURCE_ROOT; };
+		0CB3908E24E175AB0078CF14 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = SOURCE_ROOT; };
+		0CB3908F24E175AB0078CF14 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = SOURCE_ROOT; };
+		0CB3909024E175AB0078CF14 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = SOURCE_ROOT; };
+		0CB3909124E175AB0078CF14 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = SOURCE_ROOT; };
+		0CB3909224E175AB0078CF14 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = SOURCE_ROOT; };
+		0CB3909324E175AB0078CF14 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = SOURCE_ROOT; };
+		0CB3909424E175AB0078CF14 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "fmdb-master/src/fmdb/FMDB.h"; sourceTree = SOURCE_ROOT; };
+		0CB3909524E175AB0078CF14 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = SOURCE_ROOT; };
+		0CB3909624E175AB0078CF14 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = SOURCE_ROOT; };
+		0CB3909724E175AB0078CF14 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = SOURCE_ROOT; };
+		0CB3909E24E176CC0078CF14 /* IMDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMDatabase.sqlite; sourceTree = "<group>"; };
+		0CB3909F24E177490078CF14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359013BFA9D75952E69AD56F /* Pods-CovidTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidTracker.release.xcconfig"; path = "Target Support Files/Pods-CovidTracker/Pods-CovidTracker.release.xcconfig"; sourceTree = "<group>"; };
+		951027E624E1D37A00057666 /* StateDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailsScreen.swift; sourceTree = "<group>"; };
+		951027E824E1E51A00057666 /* font_image.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_image.ttf; sourceTree = "<group>"; };
+		9514583224DF2F5E005AE3D6 /* DashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
+		9514583524DF482E005AE3D6 /* CovidTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CovidTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		957CDF0924E00F3300A0A98F /* StateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateList.swift; sourceTree = "<group>"; };
 		95C28F4324DE71F90097A69C /* CovidTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C28F4624DE71F90097A69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C28F4824DE71F90097A69C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95C28F4A24DE71F90097A69C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95C28F4D24DE71F90097A69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95C28F4F24DE72000097A69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95C28F5224DE72000097A69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C28F5424DE72000097A69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C28F5B24DE7A4E0097A69C /* loaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loaderView.swift; sourceTree = "<group>"; };
+		95C28F5D24DE7A680097A69C /* reachAbilitystatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachAbilitystatus.swift; sourceTree = "<group>"; };
+		95C28F5F24DE7A8B0097A69C /* networkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkReachability.swift; sourceTree = "<group>"; };
+		D8A0D0E52B0650E209F79BDF /* Pods_CovidTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF82D49BFF86086B8C7A55F2 /* Pods-CovidTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidTracker.debug.xcconfig"; path = "Target Support Files/Pods-CovidTracker/Pods-CovidTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE5AF64CE65A9F38E377119 /* Pods_CovidTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CB3908524E1735A0078CF14 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0CB3909E24E176CC0078CF14 /* IMDatabase.sqlite */,
+				0CB3908624E1737D0078CF14 /* sqliteSupportingClass.swift */,
+				0CB3908824E173B80078CF14 /* DB_tables.swift */,
+				0CB3908A24E174380078CF14 /* sqlite_DB_Queries.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5BED5AEFA29D66B3421AFF71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF82D49BFF86086B8C7A55F2 /* Pods-CovidTracker.debug.xcconfig */,
+				359013BFA9D75952E69AD56F /* Pods-CovidTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D05129A7C2A25C5817DC2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A0D0E52B0650E209F79BDF /* Pods_CovidTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9514583124DF2F3B005AE3D6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9514583224DF2F5E005AE3D6 /* DashBoard.swift */,
+				957CDF0924E00F3300A0A98F /* StateList.swift */,
+				951027E624E1D37A00057666 /* StateDetailsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9514583424DF4780005AE3D6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				951027E824E1E51A00057666 /* font_image.ttf */,
+				0CB3909F24E177490078CF14 /* Info.plist */,
+				0CB3909224E175AB0078CF14 /* FMDatabase.h */,
+				0CB3908D24E175AB0078CF14 /* FMDatabase.m */,
+				0CB3909024E175AB0078CF14 /* FMDatabaseAdditions.h */,
+				0CB3909324E175AB0078CF14 /* FMDatabaseAdditions.m */,
+				0CB3908E24E175AB0078CF14 /* FMDatabasePool.h */,
+				0CB3909124E175AB0078CF14 /* FMDatabasePool.m */,
+				0CB3909524E175AB0078CF14 /* FMDatabaseQueue.h */,
+				0CB3909624E175AB0078CF14 /* FMDatabaseQueue.m */,
+				0CB3909424E175AB0078CF14 /* FMDB.h */,
+				0CB3909724E175AB0078CF14 /* FMResultSet.h */,
+				0CB3908F24E175AB0078CF14 /* FMResultSet.m */,
+				9514583524DF482E005AE3D6 /* CovidTracker-Bridging-Header.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		95C28F3A24DE71F90097A69C = {
 			isa = PBXGroup;
 			children = (
 				95C28F4524DE71F90097A69C /* CovidTracker */,
 				95C28F4424DE71F90097A69C /* Products */,
+				5BED5AEFA29D66B3421AFF71 /* Pods */,
+				7D05129A7C2A25C5817DC2EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +159,28 @@
 		95C28F4524DE71F90097A69C /* CovidTracker */ = {
 			isa = PBXGroup;
 			children = (
+				0CB3908524E1735A0078CF14 /* Database */,
+				9514583424DF4780005AE3D6 /* SupportingFiles */,
+				9514583124DF2F3B005AE3D6 /* Screens */,
+				95C28F5A24DE720E0097A69C /* ReuseableClass */,
 				95C28F4624DE71F90097A69C /* AppDelegate.swift */,
 				95C28F4824DE71F90097A69C /* SceneDelegate.swift */,
-				95C28F4A24DE71F90097A69C /* ViewController.swift */,
 				95C28F4C24DE71F90097A69C /* Main.storyboard */,
 				95C28F4F24DE72000097A69C /* Assets.xcassets */,
 				95C28F5124DE72000097A69C /* LaunchScreen.storyboard */,
 				95C28F5424DE72000097A69C /* Info.plist */,
 			);
 			path = CovidTracker;
+			sourceTree = "<group>";
+		};
+		95C28F5A24DE720E0097A69C /* ReuseableClass */ = {
+			isa = PBXGroup;
+			children = (
+				95C28F5B24DE7A4E0097A69C /* loaderView.swift */,
+				95C28F5D24DE7A680097A69C /* reachAbilitystatus.swift */,
+				95C28F5F24DE7A8B0097A69C /* networkReachability.swift */,
+			);
+			path = ReuseableClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95C28F5724DE72000097A69C /* Build configuration list for PBXNativeTarget "CovidTracker" */;
 			buildPhases = (
+				F80F2819C872DD058798108E /* [CP] Check Pods Manifest.lock */,
 				95C28F3F24DE71F90097A69C /* Sources */,
 				95C28F4024DE71F90097A69C /* Frameworks */,
 				95C28F4124DE71F90097A69C /* Resources */,
+				F2855E20C02ECB84B252AD5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +217,7 @@
 				TargetAttributes = {
 					95C28F4224DE71F90097A69C = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -128,19 +247,75 @@
 				95C28F5324DE72000097A69C /* LaunchScreen.storyboard in Resources */,
 				95C28F5024DE72000097A69C /* Assets.xcassets in Resources */,
 				95C28F4E24DE71F90097A69C /* Main.storyboard in Resources */,
+				951027E924E1E51A00057666 /* font_image.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2855E20C02ECB84B252AD5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidTracker/Pods-CovidTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidTracker/Pods-CovidTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidTracker/Pods-CovidTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80F2819C872DD058798108E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CovidTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95C28F3F24DE71F90097A69C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C28F4B24DE71F90097A69C /* ViewController.swift in Sources */,
+				957CDF0A24E00F3300A0A98F /* StateList.swift in Sources */,
+				95C28F6024DE7A8B0097A69C /* networkReachability.swift in Sources */,
+				9514583324DF2F5E005AE3D6 /* DashBoard.swift in Sources */,
+				0CB3909924E175AB0078CF14 /* FMDatabase.m in Sources */,
+				0CB3909C24E175AB0078CF14 /* FMDatabaseAdditions.m in Sources */,
+				951027E724E1D37A00057666 /* StateDetailsScreen.swift in Sources */,
+				0CB3909A24E175AB0078CF14 /* FMResultSet.m in Sources */,
+				0CB3908724E1737D0078CF14 /* sqliteSupportingClass.swift in Sources */,
+				0CB3909D24E175AB0078CF14 /* FMDatabaseQueue.m in Sources */,
+				95C28F5C24DE7A4E0097A69C /* loaderView.swift in Sources */,
+				95C28F5E24DE7A680097A69C /* reachAbilitystatus.swift in Sources */,
+				0CB3908924E173B80078CF14 /* DB_tables.swift in Sources */,
+				0CB3908B24E174380078CF14 /* sqlite_DB_Queries.swift in Sources */,
 				95C28F4724DE71F90097A69C /* AppDelegate.swift in Sources */,
 				95C28F4924DE71F90097A69C /* SceneDelegate.swift in Sources */,
+				0CB3909B24E175AB0078CF14 /* FMDatabasePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,8 +457,10 @@
 		};
 		95C28F5824DE72000097A69C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF82D49BFF86086B8C7A55F2 /* Pods-CovidTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HYG9JX3WQ;
 				INFOPLIST_FILE = CovidTracker/Info.plist;
@@ -293,6 +470,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = IndianMoneyInsurance.CovidTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CovidTracker/SupportingFiles/CovidTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +479,10 @@
 		};
 		95C28F5924DE72000097A69C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359013BFA9D75952E69AD56F /* Pods-CovidTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HYG9JX3WQ;
 				INFOPLIST_FILE = CovidTracker/Info.plist;
@@ -311,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = IndianMoneyInsurance.CovidTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CovidTracker/SupportingFiles/CovidTracker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
