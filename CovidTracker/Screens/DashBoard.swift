@@ -51,6 +51,10 @@ class DashBoard: loaderView {
     // For local database
     var GetAlldataInfo = NSMutableArray()
     
+    override func viewDidAppear(_ animated: Bool) {
+        FMDBDatabaseModel.getInstance().DBCreation()
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         
         if(currentReachabilityStatus == .notReachable)
@@ -58,6 +62,7 @@ class DashBoard: loaderView {
             self.noInternetAlert()
         }else
         {
+            
             self.activityIndicatorBegin(loadColour: UIActivityIndicatorView.Style.gray)
             // Deleting local db
             GetAlldataInfo = FMDBDatabaseModel.getInstance().deleteAllCovidList()
